@@ -3,7 +3,7 @@ script: make build-firefox
 deploy:
   provider: releases
   prerelease: true
-  file:_out/url-qr.xpi
+  file: _out/url-qr.xpi
   skip_cleanup: true
   on:
     repo: danipragustia/url-qr
