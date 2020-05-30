@@ -5,7 +5,7 @@
 
 QR-URL is a simple browser extension to generate QR Code from URL.
 
-##Building
+## Building
 Install the dependencies:
 - make
 - zip
