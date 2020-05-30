@@ -1,9 +1,21 @@
 ![icon](https://raw.githubusercontent.com/danipragustia/url-qr/master/src/img/icon_48.png)
 # QR-URL
 
-[![Build Status](https://travis-ci.org/danipragustia/url-qr.svg?branch=master)](https://travis-ci.org/danipragustia/url-qr) [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/danipragustia/url-qr/LICENSE)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/danipragustia/url-qr/LICENSE)
 
 QR-URL is a simple browser extension to generate QR Code from URL.
+
+##Building
+Install the dependencies:
+- make
+- zip
+
+Then build the extension:
+```
+$ make build-firefox
+```
+
+Result file you can see on **out** folder on working folder.
 
 ## Installation
 This extension was **not signed** by default, Allowing unsigned extension required.
@@ -15,6 +27,7 @@ You can install **unsigned extension** by following below method:
 2. Find *xpinstall.signatures.required* and set it to **false**.
 
 Visit [Firefox Support Page](https://support.mozilla.org/en-US/kb/add-on-signing-in-firefox#w_what-are-my-options-if-i-want-to-use-an-unsigned-add-on-advanced-users) for more information.
+
 
 ## Todos
 - Support Chromium-based Browsers
